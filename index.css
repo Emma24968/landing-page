@@ -1,70 +1,59 @@
-
+body{
+    padding: 30px;
+}
 header {
-    background-image: linear-gradient(  white, #50a557d2);
-    height: 70vh;
+    background-image: linear-gradient( #50a557d2, white);
     padding: 40px;
-
+    
 }
 
-.menu-container {
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 #logo {
-    width: 10%;
+width: 10%;
+}
+
+nav {
+    width: 40%;
 }
 
 .nav-menu {
     display: flex;
-    align-content: space-around;
-    justify-items: stretch;
+    justify-content: space-between;
 }
 
 ul {
-    list-style-type: none;
-    text-transform: capitalize;
+list-style-type: none;
+text-transform: capitalize;
+color: black;
 }
 
-#navigation-container {
+#hero-button {
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px ;
+    
+}
+#hero-section {
     display: flex;
-    margin-top: 6%;
+    align-items: center;
+        background-image: linear-gradient( white, #50a557d2);
+        /* background-color: rgb(169, 224, 169); */
+
+
+
 }
 
 #navigation-text-container {
     width: 30%;
 }
 
-#navigation-image-container {
-    justify-content: center;
-    width: 500px;
-/* justify-content: ce?nter; */
-}
-
-#nan { 
-    justify-items: right;
-}
-
-
-#nav-button {
-    background-color: rgb(169, 224, 169);
-    border-radius: 15px;
-    font-size: 15px;
-    padding: 5px 10px 5px 10px ;
-    
-}
-
-#menu-button {
-    border-radius: 5px;
-    font-size: 15px;
-    padding: 10px 20px 10px 20px ;
-    color: green;
-    background-color: rgb(169, 224, 169);
-    
-}
-
-#icon-container-button {
+#icon-container {
     display: flex;
     justify-content: space-between;
 }
@@ -75,14 +64,24 @@ ul {
     padding-left: 25px;
     padding-right: 25px;
     background-color: rgb(169, 224, 169);
-    
+    border: none;
 }
 
+#image-container {
+    width: 70%;
+}
+
+#image-container > img {
+    justify-items: center;
+
+}
 .review-box {
-    background-color: white;
+    background: white;
     padding: 10px;
+    width: 15%;
     border-radius: 10px;
     font-weight: bold;
+    /* position: absolute; */
 }
 
 .flex-images {
@@ -94,36 +93,61 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-#hero-section {
+
+/* #menu-button { */
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px ;
+    color: green;
+    background-color: rgb(169, 224, 169);
+    
+}
+
+#insurance {
+    display: flex;
+}
+
+
+
+
+
+
+/* #insurance-section { */
 
 }
 
-.text-container {
+/* .insurance { */
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.text-container > div > h1 {
+/* .text-container > div > h1 { */
     width: 80%;
 }
 
-.text-container > div > li > a {
-    color:rgb(169, 224, 169);
+/* .text-container > div > li > a { */
+    color:rgb(183 224 214);
     list-style-type: none;
     text-transform: capitalize;
 }
 
-#flex-card {
+/* #flex-card { */
     display: flex;
     justify-content: space-between;
 }
 
-#flex-card > div > img {
+/* #flex-card > div > img { */
     border-radius: 20px;
+}
+
+/* #mini-card1 { */
+    background-color: rgb(212, 35, 35);
+    height: 70px;
 }
 
 
