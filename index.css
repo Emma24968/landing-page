@@ -46,12 +46,14 @@ ul {
   border: none;
   font-size: 15px;
   padding: 5px 10px 5px 10px;
+  background-color: #5e9c6c;
 }
+
 #hero-section {
   display: flex;
   align-items: center;
-  /* background-image: linear-gradient( white, #50a557d2); */
   background-color: #f2fbf8;
+  padding: 40px;
 }
 
 #navigation-text-container {
@@ -60,19 +62,23 @@ ul {
 
 #icon-container {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
 #icon-button {
   color: white;
-  border-radius: 15px;
+  border-radius: 8px;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: #9ce4ac;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #5e9c6c;
   border: none;
-  font-size: large;
   font-weight: bold;
+}
+
+#icon-container > img {
+  padding: 12px;
 }
 
 #image-container {
@@ -96,9 +102,22 @@ ul {
   left: 50%;
 }
 
+#flex-card {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding: 40px;
+  
+
+}
+
 .flex-images {
   display: flex;
   border-radius: 8px;
+}
+
+#flex-card > div > img {
+  border-radius: 10px;
 }
 
 #logo-container {
@@ -106,27 +125,19 @@ ul {
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 30px;
+    padding: 40px;
 }
 
-/* #menu-button { */
-/* border-radius: 5px;
-    font-size: 15px;
-    padding: 10px 20px 10px 20px ;
-    color: green;
-    background-color: rgb(169, 224, 169);
-    
-} */
+.insurance {
+  padding: 40px;
 
-#insurance-container {
-  display: flex;
-  background-color: black;
 }
 
 #auto-insurance {
   background-color: white;
-  height: 50%;
+  height: 40%;
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin-top: -100px;
   margin-left: 150px;
   z-index: 2;
@@ -140,9 +151,9 @@ ul {
 #home-insurance {
   background-color: green;
   color: white;
-  height: 50%;
+  height: 40%;
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin-top: -100px;
   margin-left: 150px;
   z-index: 2;
@@ -155,9 +166,9 @@ ul {
 
 #health-insurance {
   background-color: white;
-  height: 50%;
+  height: 40%;
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin-top: -100px;
   margin-left: 150px;
   z-index: 2;
@@ -173,6 +184,7 @@ ul {
   width: 50px;
   border-radius: 5px;
 }
+
 #health-container {
   background: green;
   width: 50px;
@@ -198,7 +210,3 @@ div > li > a {
   text-transform: capitalize;
 }
 
-#flex-card {
-  display: flex;
-  justify-content: space-between;
-}
