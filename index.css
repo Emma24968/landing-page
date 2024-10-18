@@ -2,7 +2,7 @@ body {
 }
 header {
   /* background-image: linear-gradient( #50a557d2, white); */
-  background-color: #f2fbf8;
+  background-color: #f2faf7;
   padding: 40px;
 }
 
@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
 }
 
-#logo {
+.nav-container >#logo  {
   width: 10%;
 }
 
@@ -107,7 +107,7 @@ ul {
   /* justify-content: space-around; */
   justify-content: space-between;
   padding: 40px;
-  
+  width: 80%;
 
 }
 
@@ -135,10 +135,10 @@ ul {
 
 #auto-insurance {
   background-color: white;
-  height: 40%;
+  height: 35%;
   position: absolute;
   width: 200px;
-  margin-top: -100px;
+  margin-top: -150px;
   margin-left: 150px;
   z-index: 2;
   border-radius: 20px;
@@ -151,10 +151,10 @@ ul {
 #home-insurance {
   background-color: green;
   color: white;
-  height: 40%;
+  height: 35%;
   position: absolute;
   width: 200px;
-  margin-top: -100px;
+  margin-top: -150px;
   margin-left: 150px;
   z-index: 2;
   border-radius: 20px;
@@ -166,10 +166,10 @@ ul {
 
 #health-insurance {
   background-color: white;
-  height: 40%;
+  height: 35%;
   position: absolute;
   width: 200px;
-  margin-top: -100px;
+  margin-top: -150px;
   margin-left: 150px;
   z-index: 2;
   border-radius: 20px;
@@ -179,7 +179,7 @@ ul {
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.158);
 }
 
-#car-container {
+/* #car-container {
   background: green;
   width: 50px;
   border-radius: 5px;
@@ -196,7 +196,7 @@ ul {
   width: 50px;
   border-radius: 5px;
 }
-
+ */
 .insurance {
   margin-top: 30px;
   display: flex;
@@ -210,3 +210,308 @@ div > li > a {
   text-transform: capitalize;
 }
 
+#page-divider {
+  border-top: 8px solid black;
+  width: 50px;
+margin-left: 50%;  
+margin-top: 60px ;
+margin-bottom: 60px;
+border-radius: 50px;
+}
+
+main {
+  background: #f2faf7;
+}
+#recommendation-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#recommendation {
+  background-color: rgb(255, 255, 255);
+  height: 25%;
+  position: absolute;
+  width: 120px;
+  margin-top: -170px;
+  margin-left: 150px;
+  z-index: 2;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+  padding-left: 10px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.158);
+}
+
+#recommendation-button {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 50px;
+  border-radius: 40px;
+  margin-left: -330px;
+  width: 141px;
+  background: rgba(2, 2, 20, 0.829);
+  color: white;
+  border: none;
+  height: 50px;
+}
+
+#recommendation-button > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#insurance-policy {
+  width: 450px;
+}
+#insurance-policy > h3 {
+  font-size: 2rem;
+}
+#insurance-policy > p {
+  font-size: 20px;
+}
+#insurance-conditions {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+#policy-button {
+  color: white;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #5e9c6c;
+  border: none;
+  font-weight: bold;
+}
+
+#testimonial-container {
+  display: flex;
+  align-items: center;
+  background-color: #5e9c6c;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+#testimonial {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.testimonial2 {
+  background-color: #5e9c6c;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  width: 25%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px 0px 30px 0px;
+}
+
+.testimonial2 > h3 {
+  font-size: 35px;
+}
+
+.testimonial2 > a {
+  color: white;
+}
+.testimonial1 {
+  background-color: white;
+  width: 25%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px 0px 30px 0px;
+}
+
+#icon-box {
+  width: 10%;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+}
+
+.client-name {
+  font-weight: bold;
+}
+.name-container {
+  margin-left: 10px;
+}
+
+#packages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#packages > h3 {
+  font-size: 2.5rem;
+}
+
+.packages-plan {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#basic-coverage {
+  background-color: white;
+  width: 15%;
+  height: 15%;
+  padding-bottom: 20px;
+  margin: 30px 0 0 70px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+#standard-coverage {
+  background: rgb(9, 9, 29);
+  margin-top: 20px;
+  width: 15%;
+  height: 15%;
+  border-radius: 10px;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#standard-coverage > button,
+#premium-coverage > button,
+#basic-coverage > button {
+  width: 80%;
+  background: rgb(94, 156, 108);
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px 0 5px 0;
+}
+
+#premium-coverage {
+  background: white;
+  width: 15%;
+  height: 15%;
+  padding-left: 20px;
+  margin: 30px 70px 0 0;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+#guarantee {
+  background-color: white;
+  display: flex;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-bottom: -10%;
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+  margin-top: 10%;
+  /* padding-left: 4px;
+  padding-right: 4px; */
+}
+
+#guarantee-container {
+  width: 80%;
+  /* padding: 40px; */
+}
+
+#guarantee-logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: black;
+  color: white;
+  height: 70vh;
+  padding-top: 12%;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+}
+
+#location {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+#address {
+  padding-left: 15px;
+}
+
+#logo {
+  width: 50%;
+}
+
+#email-address {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+#email {
+  padding-left: 15px;
+}
+
+#seperator {
+  border-top: 1px solid #bbb;
+}
+
+.details {
+  display: flex;
+}
+
+#about {
+  width: 30%;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#services {
+  width: 15%;
+}
+
+#navigators {
+  width: 15%;
+}
+
+.form {
+  width: 40%;
+}
+
+#divider {
+  width: 2px;
+  height: 15px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
