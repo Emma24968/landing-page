@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins'); 
+
+
 body {
+  font-family: 'Poppins', serif;
 }
 header {
   /* background-image: linear-gradient( #50a557d2, white); */
@@ -82,7 +86,7 @@ ul {
 }
 
 #image-container {
-  width: 50%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
