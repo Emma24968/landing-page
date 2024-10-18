@@ -139,7 +139,7 @@ ul {
 
 #auto-insurance {
   background-color: white;
-  height: 35%;
+  height: 45%;
   position: absolute;
   width: 200px;
   margin-top: -150px;
@@ -155,7 +155,7 @@ ul {
 #home-insurance {
   background-color: green;
   color: white;
-  height: 35%;
+  height: 45%;
   position: absolute;
   width: 200px;
   margin-top: -150px;
@@ -170,7 +170,7 @@ ul {
 
 #health-insurance {
   background-color: white;
-  height: 35%;
+  height: 45%;
   position: absolute;
   width: 200px;
   margin-top: -150px;
