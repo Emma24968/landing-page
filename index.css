@@ -52,12 +52,22 @@ ul {
   padding: 5px 10px 5px 10px;
   background-color: #5e9c6c;
 }
+.
+.insurance > div > h3 {
+  font-size: 2.5em;
+  font-weight: 1000;
+}
 
 #hero-section {
   display: flex;
   align-items: center;
   background-color: #f2fbf8;
   padding: 40px;
+}
+
+#hero-text-container > h1 {
+font-size: 3em;
+font-weight: 1000;
 }
 
 #navigation-text-container {
