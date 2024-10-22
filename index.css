@@ -18,6 +18,11 @@ header {
   margin: auto
 }
 
+#main-container {
+max-width: 80rem;
+  margin: auto
+}
+
 .nav-container >#logo  {
   width: 10%;
 }
